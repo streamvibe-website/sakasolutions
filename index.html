@@ -120,11 +120,19 @@
   <script>
     const burger = document.getElementById('burger');
     const nav = document.getElementById('nav-links');
+    const navLinks = document.querySelectorAll('#nav-links a');
   
     burger.addEventListener('click', () => {
       nav.classList.toggle('show');
     });
+  
+    navLinks.forEach(link => {
+      link.addEventListener('click', () => {
+        nav.classList.remove('show');
+      });
+    });
   </script>
+  
   
 
 
