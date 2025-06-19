@@ -75,31 +75,7 @@ nav {
   height: 100vh;
 }
 
-@media (max-width: 768px) {
-  .hero-main {
-    background-image: url('assets/1-hero-main-mobile.png');
-  }
 
-  .hero-sinan {
-    background-image: url('assets/2-hero-sinan-mobile.png');
-  }
-
-  .hero-technik {
-    background-image: url('assets/3-hero-technik-mobile.png');
-  }
-
-  .hero-webdesign {
-    background-image: url('assets/4-hero-webdesign-mobile.png');
-  }
-
-  .hero-it-support {
-    background-image: url('assets/5-hero-it-support-mobile.png');
-  }
-
-  .hero-kurse {
-    background-image: url('assets/6-hero-kurse-mobile.png');
-  }
-}
 
 
 
@@ -386,3 +362,28 @@ body {
 }
 
 
+@media (max-width: 768px) {
+  .hero-main {
+    background-image: url('assets/1-hero-main-mobile.png');
+  }
+
+  .hero-sinan {
+    background-image: url('assets/2-hero-sinan-mobile.png');
+  }
+
+  .hero-technik {
+    background-image: url('assets/3-hero-technik-mobile.png');
+  }
+
+  .hero-webdesign {
+    background-image: url('assets/4-hero-webdesign-mobile.png');
+  }
+
+  .hero-it-support {
+    background-image: url('assets/5-hero-it-support-mobile.png');
+  }
+
+  .hero-kurse {
+    background-image: url('assets/6-hero-kurse-mobile.png');
+  }
+}
